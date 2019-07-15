@@ -1,4 +1,4 @@
-package response
+package switResponseCode
 
 var MsgFlags = map[int]string{
 	SUCCESS: "ok",
