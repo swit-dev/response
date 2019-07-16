@@ -21,7 +21,7 @@ var MsgFlags = map[int32]string{
 	INVALID_LOGIN:                 "please login",
 	DUPLICATE_WORKSPACE:           "The person is already in your workspace.",
 	NO_MEMBERS_WORKSPACE:          "no members in the workspace",
-	NOTVALID_CHANNEL_WORKSPACE:    "workspace or channel is not valid",
+	NOT_FOUND_WORKSPACE:           "workspace or channel is not valid",
 	DUPLICATE_CHANNEL:             "duplicate channel name",
 	NOT_INVITED_EMAIL:             "this is not an invited email",
 	INVALID_CHANNEL:               "channel is invalid",
