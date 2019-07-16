@@ -1,6 +1,6 @@
-package switResponseCode
+package response
 
-var MsgFlags = map[int]string{
+var MsgFlags = map[int32]string{
 	SUCCESS:                       "success",
 	ERROR:                         "fail",
 	AUTH_FAIL:                     "no permission",
@@ -79,7 +79,7 @@ var MsgFlags = map[int]string{
 	INVALID_PASSWORD_SPECIAL_CHAR: "Please use only letters (a~z and A~z), number(0~9) and allowed special characters.",
 }
 
-func GetMsg(code int) string {
+func GetMsg(code int32) string {
 	msg, ok := MsgFlags[code]
 	if ok {
 		return msg
