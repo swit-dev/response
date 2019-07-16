@@ -44,7 +44,7 @@ var MsgFlags = map[int32]string{
 	INVALID_PRIVATE_PROJECT:       "This task is for a private project and only members who are participating in the project can be viewed.",
 	JOIN_PROJECT:                  "You are not in the this project. Would you like to join this project?",
 	NOT_ALLOWED_CHAR:              "Special characters are not allowed.",
-	PARAMETER_INVALID:             "parameter is invalid",
+	INVALID_PARAMETER:             "parameter is invalid",
 	SWIT_ERROR:                    "unintended error occurred(router)",
 	NOT_FOUND_DATA:                "data not found",
 	INVALID_ACCESS_TOKEN:          "access token is invalid",
